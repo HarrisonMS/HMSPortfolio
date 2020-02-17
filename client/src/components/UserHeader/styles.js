@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { purple} from '@carbon/colors'; 
 
 export const HeaderContainer = styled.div`
   display: flex;
@@ -17,6 +18,7 @@ export const Header = styled.div`
 `;
 
 export const Image = styled.img`
+  object-fit: contain;
   width: 200px;
   margin-right: 1rem;
   border-radius: 2px;
@@ -30,7 +32,8 @@ export const ViewResumeLink = styled.a`
   align-items: center;
   margin-top: 1rem;
   border: 2px solid #2ecc40;
-  background-color: rgba(46, 204, 64, 0.3);
+  border-radius: 6px;
+  background-color: ${purple[70]};
   transition: background-color 250ms ease;
   &:hover {
     background-color: #2ecc40;

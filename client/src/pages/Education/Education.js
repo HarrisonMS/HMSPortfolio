@@ -14,7 +14,7 @@ const Education = ({ user }) => {
               <Institution>{education.position}</Institution>
               <div>
                 <Degree>
-                  {education.studyType}, {education.area}
+                  {education.area}
                 </Degree>{' '}
                 <span> &sdot; </span>
                 <span>
